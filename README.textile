@@ -1,0 +1,37 @@
+h2. CouchDB view updater script in Ruby
+
+Small update of the Ruby view updater script on the "CouchDB Wiki":http://wiki.apache.org/couchdb/Regenerating_views_on_update
+
+h2. Changes
+
+* Views of databases are defined in a separate couchdb.yml file, instead of the updater script itself
+* Format of couchdb.yml
+
+<pre>
+  <code>
+  --- 
+    db_name1:
+      design:
+        - view1
+        - view2
+        - view3
+    db_name2:
+      design:
+        - view1
+        - view2
+  </code>
+</pre> 
+
+* Couchdb is in the same directory as the updater script.
+* Don't forget to add your path to your updater script in your local.ini. Example:
+
+<pre>
+  <code>
+    [update_notification]
+    view_updater=/usr/local/etc/couchdb/view_updater.rb
+  </code>
+</pre>
+
+h2. Contact
+
+Contact "Frank Oxener":mailto:frank@dovadi.com, see  "Agile Dovadi BV":http://dovadi.com
