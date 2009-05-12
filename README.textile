@@ -1,6 +1,6 @@
 h2. CouchDB view updater script in Ruby
 
-Small update of the Ruby view updater script on the "CouchDB Wiki":http://wiki.apache.org/couchdb/Regenerating_views_on_update
+Small update of the Ruby view updater script on the "CouchDB Wiki":http://wiki.apache.org/couchdb/Regenerating_views_on_update from "Paul Carey":http://github.com/paulcarey (author of "RelaxDB":http://github.com/paulcarey/relaxdb/tree/master).
 
 h2. Changes
 
