@@ -1,6 +1,6 @@
 #!/usr/bin/ruby
 
-require "YAML"
+require "yaml"
 
 ###################
 # CONF            #
